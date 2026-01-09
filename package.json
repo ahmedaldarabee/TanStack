@@ -5,13 +5,21 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "json-server --watch src/db.json --port 3000",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.90.16",
+    "@tanstack/react-query-devtools": "^5.91.2",
+    "axios": "^1.13.2",
+    "bootstrap": "^5.3.8",
+    "json-server": "^1.0.0-beta.3",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.11.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
@@ -19,7 +27,7 @@
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.1",
-    "eslint": "^9.39.1",
+    "eslint": "^9.39.2",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
