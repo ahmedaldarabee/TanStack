@@ -9,7 +9,7 @@ const Main = () => {
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
 
-          <Navbar.Brand href="#home">React-Query</Navbar.Brand>
+          <Navbar.Brand href="/">React-Query</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
           <Navbar.Collapse id="basic-navbar-nav">
